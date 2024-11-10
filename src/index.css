@@ -27,6 +27,8 @@
 }
 .browser-css body:-webkit-full-page-media {
     background-color: #000;
+
+    
 }
 .browser-css p {
     display: block;
@@ -34,6 +36,8 @@
     -webkit-margin-after: 1 __qem;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
+    user-select: none; /* Prevent text selection */
+
 }
 .browser-css div {
     display: block;
